@@ -5,7 +5,6 @@ This repository contains my personal solutions to the [Advent of Code](https://a
 ## Repository Structure
 
 This repository will be ordered by folders of each year, and inside each folder you will find another one with each day.
-Each day will contain at least 3 files:
-- dayN.txt (This contains the raw data for this problem)
+Each day will contain at least 2 files:
 - dayN.py (This will be the solution for the first part)
 - dayNPartTwo.py (This will contain the part two of problem)
