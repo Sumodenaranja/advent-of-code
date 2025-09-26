@@ -1,20 +1,10 @@
-data = open("dayOne.txt","r").read().rstrip().split()
+import numpy as np
 
+with open("dayOne.txt", "r") as f:
+    text = f.read().rstrip()
 
-floor = 0
-up = 0
-down = 0
-for line in data:
-    for num, letter in enumerate(line):
-        if floor == -1:
-            print(num)
-            break
-        if letter == "(":
-            up+=1
-            floor +=1
-        elif letter == ")":
-            down+= 1
-            floor -=1
+myArray = np.array(list(text))
 
+result = (myArray == "(").sum() - (myArray == ")").sum()
 
-
+print(result)
