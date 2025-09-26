@@ -1,2 +1,11 @@
-# advent-of-code
-This is my attempt to complete the advent of code
+# Advent of Code – Solutions  
+
+This repository contains my personal solutions to the [Advent of Code](https://adventofcode.com/)
+
+## Repository Structure
+
+This repository will be ordered by folders of each year, and inside each folder you will find another one with each day.
+Each day will contain at least 3 files:
+- dayN.txt (This contains the raw data for this problem)
+- dayN.py (This will be the solution for the first part)
+- dayNPartTwo.py (This will contain the part two of problem)
