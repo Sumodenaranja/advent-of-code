@@ -13,6 +13,7 @@ Each day will contain at least 2 files:
 2015
 - Day One A
 - Day Two
+- Day Three A
 
 ## Stars obtained
 
