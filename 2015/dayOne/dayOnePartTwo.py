@@ -1,20 +1,14 @@
-data = open("dayOne.txt","r").read().rstrip().split()
 
+with open("dayOne.txt", "r") as f:
+    text = f.read().rstrip()
 
 floor = 0
-up = 0
-down = 0
-for line in data:
-    for num, letter in enumerate(line):
-        if floor == -1:
-            print(num)
-            break
-        if letter == "(":
-            up+=1
-            floor +=1
-        elif letter == ")":
-            down+= 1
-            floor -=1
 
-
-
+for num, letter in enumerate(text):
+    if floor == -1:
+        print(num)
+        break
+    if letter == "(":
+        floor +=1
+    elif letter == ")":
+        floor -=1
