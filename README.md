@@ -12,6 +12,7 @@ Each day will contain at least 2 files:
 ## Optimized problems
 2015
 - Day One A
+- Day Two
 
 ## Stars obtained
 
