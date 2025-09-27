@@ -8,3 +8,11 @@ This repository will be ordered by folders of each year, and inside each folder 
 Each day will contain at least 2 files:
 - dayN.py (This will be the solution for the first part)
 - dayNPartTwo.py (This will contain the part two of problem)
+
+## Optimized problems
+2015
+- Day One A
+
+## Stars obtained
+
+Total stars: 32*
