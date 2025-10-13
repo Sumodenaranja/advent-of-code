@@ -14,6 +14,8 @@ while i < len(numbers):
     elif numbers[i] == 99:
         print("Halt!")
         break
+    else:
+        raise Exception("The instruction is not 1,2 or 99")
 
     i += 4 # 4 Because the blocks are made of 4 instructions
 
