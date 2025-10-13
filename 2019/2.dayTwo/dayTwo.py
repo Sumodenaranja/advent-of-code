@@ -1,5 +1,3 @@
-
-
 with open("dayTwo.txt","r") as f:
     numbers = list(map(int, f.readline().strip().split(",")))
 
