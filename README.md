@@ -12,7 +12,6 @@ Some folders might contain a secondary file for the second part
 
 ## Problems missing
 
-2015 Day Five Part Two
 
 ## Stars obtained
 
