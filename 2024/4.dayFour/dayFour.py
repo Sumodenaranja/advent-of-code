@@ -18,7 +18,7 @@ with open("dayFour.txt","r") as f:
         line = line.strip()
         #First we will check horizontaly
         for (one,two,three,four) in zip(line,line[1:],line[2:],line[3:]):
-            if (one,two,three,four) == ("X","M","A","S") or (one,two,three,four) == ("S","A ","M","X"):
+            if (one,two,three,four) == ("X","M","A","S") or (one,two,three,four) == ("S","A","M","X"):
                 result += 1
         
         vertical += 1
