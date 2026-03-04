@@ -10,7 +10,7 @@ Each day will contain at least 1 files:
 Some folders might contain a secondary file for the second part
 - dayNPartTwo.py (This will contain the part two of problem)
 
-## Problems missing
+<!-- ## Problems missing -->
 
 
 ## Stars obtained
